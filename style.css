@@ -1,0 +1,43 @@
+.pomodoro-container {
+  padding: 15px;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#timer {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin: 0.5em 0;
+}
+
+#status {
+  color: #cccccc;
+  margin: 0.5em 0;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #3a7bc8;
+}
+
+button:active {
+  background-color: #2a65a8;
+}

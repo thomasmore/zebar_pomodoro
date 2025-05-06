@@ -1,0 +1,8 @@
+{
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A productivity timer with work/break cycles",
+  "author": "AI",
+  "type": "widget",
+  "permissions": []
+}
